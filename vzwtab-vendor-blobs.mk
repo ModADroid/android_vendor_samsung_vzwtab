@@ -60,14 +60,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/vzwtab/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/vzwtab/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
-    vendor/samsung/vzwtab/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so 
+    vendor/samsung/vzwtab/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
+    vendor/samsung/vzwtab/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
+    vendor/samsung/vzwtab/proprietary/lib/libDioHWR.so:system/lib/libDioHWR.so \
+    vendor/samsung/vzwtab/proprietary/bin/akmd2:system/akmd2
 #    vendor/samsung/vzwtab/proprietary/lib/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
 #    vendor/samsung/vzwtab/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
 #    vendor/samsung/vzwtab/proprietary/lib/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
 #    vendor/samsung/vzwtab/proprietary/bin/sensorcalibutil_yamaha:system/bin/sensorcalibutil_yamaha \
 #    vendor/samsung/vzwtab/proprietary/bin/sensorserver_yamaha:system/bin/sensorserver_yamaha \
 #    vendor/samsung/vzwtab/proprietary/bin/sensorstatutil_yamaha:system/bin/sensorstatutil_yamaha
-#    vendor/samsung/vzwtab/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so
 
 #
 # Camera
@@ -119,9 +121,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/vzwtab/proprietary/etc/ppp/ip-down:system/etc/ppp/ip-down \
     vendor/samsung/vzwtab/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
     vendor/samsung/vzwtab/proprietary/etc/ppp/pap-secrets:system/etc/ppp/pap-secrets \
-    vendor/samsung/vzwtab/proprietary/etc/ppp/options:system/etc/ppp/options
-#    vendor/samsung/vzwtab/proprietary/etc/init.cdma-pppd:system/etc/init.cdma-pppd \
-#    vendor/samsung/vzwtab/proprietary/etc/init.gprs-pppd:system/etc/init.gprs-pppd \
+    vendor/samsung/vzwtab/proprietary/etc/ppp/options:system/etc/ppp/options \
+    vendor/samsung/vzwtab/proprietary/etc/init.cdma-pppd:system/etc/init.cdma-pppd \
+    vendor/samsung/vzwtab/proprietary/etc/init.gprs-pppd:system/etc/init.gprs-pppd 
 
 #
 # OMX
