@@ -57,13 +57,13 @@ PRODUCT_COPY_FILES += \
 #
 # Sensors, Lights etc
 #
-PRODUCT_COPY_FILES += \
-    vendor/samsung/vzwtab/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/samsung/vzwtab/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
-    vendor/samsung/vzwtab/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
-    vendor/samsung/vzwtab/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
-    vendor/samsung/vzwtab/proprietary/lib/libDioHWR.so:system/lib/libDioHWR.so \
-    vendor/samsung/vzwtab/proprietary/bin/akmd2:system/akmd2
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/vzwtab/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+#    vendor/samsung/vzwtab/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
+#    vendor/samsung/vzwtab/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
+#    vendor/samsung/vzwtab/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
+#    vendor/samsung/vzwtab/proprietary/lib/libDioHWR.so:system/lib/libDioHWR.so \
+#    vendor/samsung/vzwtab/proprietary/bin/akmd2:system/akmd2
 #    vendor/samsung/vzwtab/proprietary/lib/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
 #    vendor/samsung/vzwtab/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
 #    vendor/samsung/vzwtab/proprietary/lib/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
