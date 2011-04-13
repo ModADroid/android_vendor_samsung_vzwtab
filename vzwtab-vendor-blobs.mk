@@ -58,8 +58,8 @@ PRODUCT_COPY_FILES += \
 # Sensors, Lights etc
 #
 #PRODUCT_COPY_FILES += \
-#    vendor/samsung/vzwtab/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/vzwtab/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so 
+#    vendor/samsung/vzwtab/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 #    vendor/samsung/vzwtab/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
 #    vendor/samsung/vzwtab/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
 #    vendor/samsung/vzwtab/proprietary/lib/libDioHWR.so:system/lib/libDioHWR.so \
